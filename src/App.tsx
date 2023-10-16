@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // components
@@ -8,7 +7,6 @@ import { Home, } from './pages';
 import { Natural } from './pages';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,8 +15,6 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="natural" element={<Natural />} />
-
-
         </Routes>
         <Footer />
       </BrowserRouter >
