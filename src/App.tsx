@@ -1,23 +1,25 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Route, Switch } from 'wouter'
 
 // components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { Home, } from './pages';
-import { Natural } from './pages';
+import { Animals, Home, Natural, AnimalsDetail } from './pages';
+
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="natural" element={<Natural />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter >
+      <Navbar />
+      <Switch>
+        <Route path='/' component={Home} />
+        <Route path='/animals' component={Animals} />
+        <Route path='/animals/:animalsName' component={AnimalsDetail} />
+        <Route path='/natural' component={Natural} />
+
+      </Switch>
+      <Footer />
 
 
     </>
