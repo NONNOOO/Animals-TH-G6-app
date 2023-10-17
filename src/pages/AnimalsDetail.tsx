@@ -24,7 +24,7 @@ const AnimalsDetail = () => {
 
 
                 <div>
-                    <p className=" font-mono font-bold text-lg px-20 ">
+                    <p className=" font-mono font-bold text-lg  ">
                         ลักษณะ
                     </p>
                     <p className=" font-mono md:text-base lg:fext-lg  px-0 lg:px-20  indent-10">

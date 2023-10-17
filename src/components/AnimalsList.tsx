@@ -9,10 +9,12 @@ export const AnimalsList = () => {
     return (
         <div className="flex   justify-center py-20 bg-[#61876E]">
             <div className="justify-center max-w-7xl min-h-screen ">
-                <h1 className="font-semibold text-white font-mono text-3xl text-center pt-5 pb-10">
+                <h1 className="font-semibold text-white font-mono text-3xl text-center pt-5 pb-5">
                     สัตว์ป่าสงวนในประเทศไทย
                 </h1>
-                <hr className="py-8" />
+                <div className="px-[150px] py-10">
+                    <hr />
+                </div>
                 <div className="flex gap-10 lg:gap-12 flex-wrap justify-center">
                     {
                         (
