@@ -4,8 +4,7 @@ const Home = () => {
             <div className="bg-cover bg-center bg-no-repeat bg-[url('https://images.pexels.com/photos/5593781/pexels-photo-5593781.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load')] bg-[#61876E] bg-blend-multiply">
                 <div className="px-4 mx-auto text-center max-w-screen-xl  py-24 lg:py-56">
                     <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">ยินดีต้อนรับ</h1>
-                    <p className="mb-8 text-2xl font-normal text-gray-300 md:text-3xl lg:text-2xl ">.............................................
-                        <br />..................................................................</p>
+
                 </div>
             </div>
 
